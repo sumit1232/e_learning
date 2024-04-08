@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Activation Email</title>
+</head>
+<body>
+    <div class="emial-wrapper">
+<div class="emial-header">
+    <h1>Welcome To LMS</h1>
+
+</div>
+<div class="email-body">
+<p>Hello <%= user.name %>,</p>
+<p>Thank You for Registration with Us. To Activat your account, Please Use the Following Activation code</p>
+<h2><%= activationCode %></h2>
+<p>Please Enter This Code on the activation Page within the next 5  Minutes.</p>
+<p>If you did not register for a Udemy Account, Please ignore thi email</p>
+</div>
+<div class="email-footer"> 
+<p>If you have any Question, Please  Connect ,<a href="sumitjadav2525@gmial.com">Support</a></p>
+</div>
+    </div>
+</body>
+</html>
